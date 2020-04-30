@@ -22,7 +22,7 @@ data () {
 }
 </script>
 
-<style>
+<style scoped>
 body{
     background-color: #fff8ee;
 }

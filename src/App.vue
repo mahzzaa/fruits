@@ -7,6 +7,7 @@
 
 <script>
 import mivefurushi from './components/mivefurushi'
+
 export default {
   name: 'App',
   components: {
@@ -15,7 +16,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 body{
   background-color: #fff8ee;
 }
