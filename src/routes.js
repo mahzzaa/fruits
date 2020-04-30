@@ -1,3 +1,4 @@
+import mivefurushi from './components/mivefurushi'
 export default[
-    {path:'/', component:miveFurushi}
+    {path:'/', component:mivefurushi}
 ]

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue/dist/bootstrap-vue.esm';
 import VueRouter from 'vue-router'
-import Routes from './routes'
+import routes from './routes'
 
 Vue.use(VueRouter);
 

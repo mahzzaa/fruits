@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Masha.js App"/>
+    <img alt="Vue logo" src="./assets/fruit.png">
+    <HelloWorld msg="Welcome to Your fruit App"/>
     <button class="btn btn-primary">SsdsLM</button>
   </div>
 </template>
@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style>
+body{
+  background-color:#fff8ee;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,5 +29,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+img{
+  width: 25%;
 }
 </style>
