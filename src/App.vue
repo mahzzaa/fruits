@@ -1,23 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/fruit.png">
-    <HelloWorld msg="Welcome to Your fruit App"/>
-    <button class="btn btn-primary">SsdsLM</button>
+    <router-view></router-view>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import mivefurushi from './components/mivefurushi'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   }
 }
 </script>
 
-<style>
+<style`>
 body{
   background-color:#fff8ee;
 }
