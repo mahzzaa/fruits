@@ -1,7 +1,6 @@
 <template>
     <div>
-        <h1>mivefurushi</h1>
-         <b-img src="src/assets/fruit.png" fluid></b-img>
+        <img src="@/assets/fruit.png" alt="Image alt" />
         <h1>{{ msg }}</h1>
         <h2>select your fruit</h2>
         <ul>
@@ -29,5 +28,9 @@ body{
 }
 .router-link-active{
     background:#eee;
+}
+
+img{
+    width: 25%;
 }
 </style>

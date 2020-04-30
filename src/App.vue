@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/fruit.png">
     <router-view></router-view>
 
   </div>
@@ -16,7 +15,7 @@ export default {
 }
 </script>
 
-<style`>
+<style>
 body{
   background-color: #fff8ee;
 }
