@@ -47,7 +47,13 @@ body{
 img{
     width: 25%;
 }
+
 h2{
     color: #e01721;
 }
+
+.nav{
+    top: 0;
+}
+
 </style>
