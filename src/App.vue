@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <navbar></navbar>
     <router-view></router-view>
 
   </div>
@@ -7,11 +8,12 @@
 
 <script>
 import mivefurushi from './components/mivefurushi'
+import navbar from './components/navbar'
 
 export default {
   name: 'App',
   components: {
-    
+    'navbar': navbar
   }
 }
 </script>
