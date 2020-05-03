@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="apple">
         <img src="@/assets/apple.jpg" alt="Image alt" />
 
     </div>
@@ -12,7 +12,11 @@ export default {
 </script>
 
 <style>
-body{
+#apple{
     background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 </style>
