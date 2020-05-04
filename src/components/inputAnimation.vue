@@ -20,15 +20,17 @@ export default {
 </script>
 
 <style>
-
-
 #input{
-    height: 60vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .form{
