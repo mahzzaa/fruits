@@ -11,8 +11,6 @@
 <script>
 
 export default {
-components:{
-},
 data () {
     return {
       msg: 'Welcome to Your Fruit App'

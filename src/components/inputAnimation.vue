@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -90,5 +90,5 @@ body{
 .form input:focus + .label-name::after , 
 .form input:valid + .label-name::after{
     transform: translateX(0%);
-}
+} */
 </style>

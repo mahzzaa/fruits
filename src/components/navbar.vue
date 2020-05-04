@@ -15,6 +15,7 @@
                     <li><router-link class="nav-link" to="/kiwi" exact>kiwi</router-link></li>
                     <li><router-link class="nav-link" to="/banana" exact>banana</router-link></li>
                     <li><router-link class="nav-link" to="/orange" exact>orange</router-link></li>
+                    <li><router-link class="nav-link" to="/input" exact>inputAnimation</router-link></li>
                 </ul>
             </div>
         </div>
