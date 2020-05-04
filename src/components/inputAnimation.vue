@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="input">
       <h1>Animation Input</h1>
 
     <div class="form">
@@ -20,13 +20,9 @@ export default {
 </script>
 
 <style>
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body{
+
+#input{
     height: 60vh;
     display: flex;
     justify-content: space-around;
@@ -90,5 +86,5 @@ body{
 .form input:focus + .label-name::after , 
 .form input:valid + .label-name::after{
     transform: translateX(0%);
-} */
+}
 </style>
