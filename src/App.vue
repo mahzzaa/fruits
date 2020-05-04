@@ -2,6 +2,7 @@
   <div id="app">
     <navbar></navbar>
     <router-view></router-view>
+    <inputAnimation></inputAnimation>
 
   </div>
 </template>
@@ -9,11 +10,14 @@
 <script>
 import mivefurushi from './components/mivefurushi'
 import navbar from './components/navbar'
+import inputAnimation from './components/iputAnimation'
+
 
 export default {
   name: 'App',
   components: {
-    'navbar': navbar
+    'navbar': navbar,
+    'inputAnimation': inputAnimation
   }
 }
 </script>
